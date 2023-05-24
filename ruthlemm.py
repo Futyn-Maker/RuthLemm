@@ -4,7 +4,6 @@ import argparse
 
 from simpletransformers.seq2seq import Seq2SeqModel
 import pandas as pd
-import torch
 
 
 random.seed = 42
@@ -44,7 +43,7 @@ def predict(in_file, out_file, join=False):
     model = Seq2SeqModel(
         encoder_decoder_type="bart",
         encoder_decoder_name=model_name,
-        use_cuda=torch.cuda.is_available()
+        use_cuda=False
     )
 
     pred_data = load_conllu_dataset(in_file, join=join)["input_text"].tolist()

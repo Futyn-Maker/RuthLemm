@@ -5,8 +5,8 @@ RuthLemm is a transformer BART-based lemmatizer for Ruthenian language. With its
 ## Installation
 
 1. Clone this repo: `git clone https://github.com/Futyn-Maker/RuthLemm.git`;
-2. Move to the repo folder: `cd ruthlemm`;
-3. Install dependencies: `pip3 install -r requirements.txt`.
+2. Move to the repo folder: `cd RuthLemm`;
+3. Install dependencies: `pip3 install -r requirements.txt
 
 ## Usage
 
